@@ -76,7 +76,7 @@
       <!-- Premier bouton call-to-action  -->
       <nav>
         <ul>
-          <li><a class="btn__cta" onclick="toggle();" href="#">Prévenez-moi!</a></li>
+          <li><a class="btn__cta show__newsletter" href="#">Prévenez-moi!</a></li>
         </ul>
       </nav>
     </header>
@@ -120,7 +120,7 @@
         </div>
 
         <!-- Deuxième bouton call-to-action -->
-        <a class="btn__cta" onclick="toggle();" href="#">Prévenez-moi!</a>
+        <a class="btn__cta show__newsletter" href="#">Prévenez-moi!</a>
       </div>
 
 
@@ -151,7 +151,7 @@
          <p>Vous pouvez vous desinscrire à tous moment à l'aide des liens de désinscription ou en nous contactant à a l'adresse policy@sweetystrawberry.fr</p>
         </div>
       <!-- Image pour la fermeture du formulaire -->
-      <img class="close" onclick="toggle();" src="./img/section/close.png" alt="Image pour fermer le formulaire" >
+      <img class="close show__newsletter" src="./img/section/close.png" alt="Image pour fermer le formulaire" >
     </div>
 
     <!-- FOOTER -->
@@ -161,11 +161,7 @@
       </div>
     </footer>
     <!-- script js -->
-    <script type="text/javascript">
-      function toggle(){
-        let newsletter = document.querySelector('.newsletter');
-        newsletter.classList.toggle('active')
-      }
+    <script src="./assets/js/main.js">
     </script>
   </body>
 </html>
